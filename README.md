@@ -6,6 +6,7 @@
 [![Java 17+](https://img.shields.io/badge/Java-17%2B-orange.svg)](https://openjdk.org/)
 [![JMH Benchmarked](https://img.shields.io/badge/JMH-Benchmarked-brightgreen.svg)](examples/Benchmark)
 [![Release](https://img.shields.io/badge/Release-0.1.0-blue.svg)](https://github.com/andrestubbe/FastCalendar/releases/tag/0.1.0)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010+-lightgrey.svg)]()
 
 **FastCalendar** is a high-speed, zero-dependency calendar processing engine engineered specifically for high-throughput backends, scheduling servers, enterprise groupware, and CalDAV synchronization infrastructure.
 
@@ -162,3 +163,20 @@ run-benchmark.bat
 ## 📄 License
 
 FastCalendar is open source under the [MIT License](LICENSE).
+
+
+---
+
+## Related Projects
+
+Part of the **FastJava** high-performance ecosystem:
+* [FastCore](https://github.com/andrestubbe/FastCore) — Unified JNI extraction and native library loader
+* [FastANSI](https://github.com/andrestubbe/FastANSI) — Ultra-fast 24-bit TrueColor terminal styling
+* [FastAIRuntime](https://github.com/andrestubbe/FastAIRuntime) — Autonomous agent runtime and process supervisor
+* [FastFileSystem](https://github.com/andrestubbe/FastFileSystem) — Unified mmap indexing and NTFS live sync
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
