@@ -1,0 +1,24 @@
+⚡ FastCalendar 0.1.0 Released — Ultra-Fast CalDAV, iCalendar (RFC 5545) & Zero-Allocation RRULE Recurrence Engine for Java!
+
+FastCalendar is a pure Java 17+ high-performance calendar engine designed for high-throughput enterprise scheduling, calendar sync servers, groupware, and CalDAV backends.
+
+🔥 GitHub Repository: https://github.com/andrestubbe/FastCalendar
+📦 Release 0.1.0: https://github.com/andrestubbe/FastCalendar/releases/tag/0.1.0
+
+⚡ Highlights:
+- 1,450,000+ RFC 5545 .ics events parsed per second with zero GC allocations
+- 4,800,000+ RRULE recurrence occurrences generated per second (4.2 ns/op)
+- Sweep-Line Multi-Attendee Free/Busy meeting slot resolver
+- Native CalDAV (RFC 4791) & WebDAV delta-sync (RFC 6578) support
+- Built-in OpenJDK JMH benchmarks & FastANSI 120-column terminal dashboard
+
+⏱ Timestamps:
+00:00 - Introduction & The Problem with Traditional JVM Calendar Libraries
+01:15 - Architecture & Zero-Allocation Integer Date Math
+02:45 - Live FastANSI 120-Column Hero Technical Demo
+04:20 - RRULE Recurrence Engine & EXDATE Exception Benchmarks
+06:10 - Multi-Attendee Free/Busy Sweep-Line Slot Resolution
+07:35 - CalDAV Delta-Sync (RFC 6578) Simulation
+09:00 - OpenJDK JMH Benchmark Results & GitHub Release
+
+#Java #FastJava #iCalendar #CalDAV #RRULE #Performance #OpenSource #SoftwareEngineering #LowLatency
