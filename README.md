@@ -77,6 +77,13 @@ Standard Java calendar libraries (iCal4j) suffer from heavy heap bloat and slow 
 2. **Primitive Timestamp Buffers**: Evaluates recurrence rules into contiguous `long[]` epoch millisecond buffers.
 3. **Sweep-Line Free/Busy Solver**: Merges multi-calendar busy intervals in $O(N \log N)$ optimal time.
 
+| Feature | iCal4j | Biweekly | FastCalendar |
+|:---|:---|:---|:---|
+| **Parsing Model** | Heavy AST object tree | DOM object graph | **Zero-allocation streaming parser** |
+| **Recurrence (RRULE)** | Slow Date iterator objects | Standard Date iteration | **Primitive `long[]` epoch math** |
+| **Free/Busy Calculation**| Manual object iteration | Not natively supported | **Sweep-line algorithm ($O(N \log N)$)** |
+| **Heap / GC Footprint** | Millions of temporary objects | Moderate heap garbage | **Zero GC hot path** |
+
 ---
 
 ## Key Features
